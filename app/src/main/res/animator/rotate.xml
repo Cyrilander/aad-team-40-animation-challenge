@@ -2,12 +2,11 @@
 <objectAnimator
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:propertyName="rotation"
-        android:duration="1000"
+        android:duration="7000"
         android:valueFrom="0"
-        android:valueTo="-180"
+        android:valueTo="360"
         android:valueType="floatType"
-        android:repeatCount="1"
-        android:repeatMode="reverse"/>
+        android:repeatCount="infinite"/>
 
         <!--
             android:propertyName="rotation"      Rotates the object clockwise or anti-clockwise
